@@ -34,7 +34,7 @@ function newText(){
 	//create element
 
 	var query = "&q="+textfield.value()
-	var url2=api+apikey+query
+	var url2=api+query+apikey
 	createP(textfield.value());
 	loadJSON(url2,gotData);
 	//console.log(input.value());
